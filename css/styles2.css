@@ -1,0 +1,183 @@
+body{
+  color: #40514E;
+  background-color: #E4F6F6;
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+h1{
+  font-size: 500%;
+  margin: 80px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 250%;
+  color: #66BFBF;
+  font-family: 'Sacramento',cursive;
+
+}
+
+h3{
+  color: #E94B3CFF;
+   font-family: 'Montserrat', sans-serif;
+}
+
+
+.top-container{
+
+  position: relative;
+  padding-top: 100px;
+}
+.skill-row{
+  text-align: left;
+  width: 80%;
+  margin: -15px auto auto auto;
+  line-height: 2;
+}
+
+
+
+.top-cloud{
+  width: 20%;
+  position: absolute;
+  left: 500px;
+  top: 50px;
+  animation: mymove 3s infinite;
+}
+.top-cloud {animation-timing-function: linear;}
+
+@keyframes mymove {
+  from {left: 500px;}
+  to{left: 840px;}
+
+}
+
+
+.bottom-cloud{
+  width: 20%;
+  position: absolute;
+  left: 400px;
+  bottom: 340px;
+  animation: myshake 3s infinite;
+}
+
+.bottom-cloud{animation-timing-function: linear;}
+
+@keyframes myshake {
+  from {left: 400px;}
+  to {left: 0;}
+
+}
+
+
+
+.programmer{
+  font-size: 2.5rem;
+}
+
+
+
+.linkedin{
+  display: inline-block;
+}
+
+.instagram{
+  display: inline;
+}
+.insta{
+  display: inline-block;
+  position: relative;
+  bottom: 5px;
+}
+.link{
+  display: inline-block;
+  position: relative;
+  bottom: 5px;
+}
+
+.gmail{
+  display: inline-block;
+  position: relative;
+  left: 5px;
+  bottom: 5px;
+}
+
+hr{
+
+  border: 0;
+  height: 1px;
+  width: 30%;
+  position: relative;
+  margin: 30px auto;
+  background-color: black;
+}
+
+p{
+  color:  black;
+  font-size: 120%;
+}
+.love{
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+}
+.coding{
+  float: left;
+  margin-right: 40px;
+  position: relative;
+  top: 20px;
+}
+
+.quiz{
+  float: right;
+  position: relative;
+  bottom: 20px;
+}
+
+
+.BUTTON_BRN {
+   background: #3D94F6;
+   background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   height: 0;
+   line-height: 0;
+   color: #FFFFFF;
+   font-family: Times New Roman;
+   width: 150px;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 30px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_BRN:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
